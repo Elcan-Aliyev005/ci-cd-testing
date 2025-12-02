@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 
 function App() {
 
-const [_, setState]= useState<string>("")
+const [state, setState]= useState<string>("")
 
 
 
@@ -14,7 +14,7 @@ useEffect(()=>{
 
 
   return (
-    <div>App</div>
+    <div>{state}</div>
   )
 }
 
