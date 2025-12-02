@@ -2,7 +2,7 @@ echo 'Paketler yuklenir'
 npm install 
 
 echo  'Build olunur'
-npm run build ||  echo "Ae yeke kisisen get kodunu duzelt setirine qeder verirem"; exit 1;
+npm run build || { echo "Ae yeke kisisen get kodunu duzelt setirine qeder verirem"; exit 1; }
 
 
 echo 'urraaaaa artıq husky-den kecdi malades sene'
