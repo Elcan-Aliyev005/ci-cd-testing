@@ -18,7 +18,7 @@ jobs:
           node-version: "22"
 
       - name: Paketleri yukle
-        uses: npm install
+        run: npm install
    
       - name: Build et 
-        uses: npm run build
+        run: npm run build
