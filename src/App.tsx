@@ -9,7 +9,7 @@ const [state, setState]= useState<string>("")
 
 
 useEffect(()=>{
-  setState(323233232)
+  setState('Hello world')
 },[])
 
 
