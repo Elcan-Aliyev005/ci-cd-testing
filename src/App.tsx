@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 
 function App() {
 
-const [state, setState]= useState<string>("")
+const [_, setState]= useState<string>("")
 
 
 
