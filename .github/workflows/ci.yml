@@ -1,0 +1,24 @@
+name: CI - React App
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  build_and_test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo-nu checkout et
+        uses: actions/checkout@v3
+
+      - name: Node versiyasını seç
+        uses: actions/setup-node@v3
+        with:
+          node-version: "22"
+
+      - name: Paketleri yukle
+        uses: npm install
+   
+      - name: Build et 
+        uses: npm run build
