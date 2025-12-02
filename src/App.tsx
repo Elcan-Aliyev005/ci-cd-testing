@@ -9,7 +9,7 @@ const [state, setState]= useState<string>("")
 
 
 useEffect(()=>{
-  setState(195)
+  setState(194344324325)
 },[])
 
 
